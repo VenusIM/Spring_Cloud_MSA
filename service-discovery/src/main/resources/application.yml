@@ -1,0 +1,14 @@
+# Eureka port
+server:
+  port: 8761
+
+# ?? ???
+spring:
+  application:
+    name: service-discovery
+
+# Eureka register ? servicediscovery ?? ??? ???? ???
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
