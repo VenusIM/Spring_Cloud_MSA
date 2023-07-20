@@ -29,4 +29,14 @@ public class TestService {
         log.info(header);
         return "second service message";
     }
+
+    @GetMapping("first-service/check")
+    public String check1() {
+        return "first service check";
+    }
+
+    @GetMapping("second-service/check")
+    public String check2() {
+        return "second service check";
+    }
 }
