@@ -2,12 +2,11 @@
 server:
   port: 8761
 
-# ?? ???
 spring:
   application:
     name: service-discovery
 
-# Eureka register ? servicediscovery ?? ??? ???? ???
+# Eureka register
 eureka:
   client:
     register-with-eureka: false
